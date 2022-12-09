@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+form{
+    margin-left: 10px;
+
+}
+p{
+    margin-left: 9px;
+}
+div{
+    margin-bottom: 10px;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+textarea{
+    padding:3px;
+}
+

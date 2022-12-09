@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <h1>Clarusway Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <form action="">
+      <div>
+        <label for="name">Name</label> <br />
+        <input type="text" required id="name" placeholder="Enter your name" />
+      </div>
+      <div>
+        <label for="surname">Surname</label><br />
+        <input
+          type="text"
+          name="surname"
+          placeholder="Enter your surname"
+          id="surname"
+        />
+      </div>
+      <div>
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="user@clarusway.com"
+          id="email"
+        />
+      </div>
+      <label for="">Which option best describes your current role?</label>
+      <div>
+        <select name="" id="">
+          <option value="">Select current role</option>
+          <option value="">student</option>
+          <option value="">teacher</option>
+          <option value="">school</option>
+        </select>
+      </div>
+      <label for="">What would you like to see improved?</label>
+      <div>
+        <input type="radio" checked id="radio1" name="isim" />
+        <label for="radio1">Definitely, yes</label><br />
+        <input type="radio" name="isim" id="radio2" />
+        <label for="radio2" name="isim">Maybe</label> <br />
+        <input type="radio" name="isim" id="radio3" />
+        <label for="radio3">Not sure</label><br />
+        <input type="radio" name="isim" id="radio4" />
+        <label for="radio4">Definitely,no</label>
+      </div>
+      <label for="">What is your favorite feature of Clarusway?</label>
+      <div>
+        <select name="select" id="">
+            <option value="">Select an option</option>
+            <option value="USA">USA</option>
+        </select>
+      </div>
+      <label for="">What would you like to see improved? (Check all that apply)</label>
+      <div>
+        <input type="checkbox" name="x" id="a">
+        <label for="a">Front-end project</label><br>
+        <input type="checkbox" id="b" name="x">
+        <label for="b">Back-end project</label><br>
+        <input type="checkbox" id="c" name="x">
+        <label for="c">Data Science</label><br>
+        <input type="checkbox" id="d" name="x">
+        <label for="d">Additional Courses</label>
+
+     </div>
+     <label for="">Any comments or suggestion</label><br>
+     <textarea name="" id="" cols="20" rows="3" placeholder="enter your comment here..thanks"></textarea>
+     
+        <input type="submit" value="submit">
+    
+
+
+    </form>
+  </body>
+</html>
